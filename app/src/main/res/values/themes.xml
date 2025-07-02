@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<style name="Base.Theme.PokeBinder" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/white</item>
+    <item name="colorPrimaryVariant">@color/darkWhite</item>
+    <item name="colorOnPrimary">@color/white</item>
+
+    <item name="colorSecondary">@color/white</item>
+    <item name="colorSecondaryVariant">@color/darkWhite</item>
+    <item name="colorOnSecondary">@color/black</item>
+
+    <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+</style>
+
+<style name="Theme.PokeBinder" parent="Base.Theme.PokeBinder" />
+</resources>
