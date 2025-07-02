@@ -11,8 +11,10 @@ to keep track of which cards they have, their prices, what cards they still need
 
 *   Gigadex: A set containing one of every Pokemon, cards you own will display, cards you dont will show the back of a card. Clicking on a card will
 display every currently released card of that Pokemon allowing the user to choose their owned card.
-<img src="app/src/main/res/drawable/poke_gigadex.png" alt="Gigadex Image" width="200"/>
-<img src="app/src/main/res/drawable/poke_gigaselect.png" alt="Gigadex Select Image" width="200"/>
+<div style="display: flex; gap: 20px;">
+    <img src="app/src/main/res/drawable/poke_gigadex.png" alt="Gigadex Image" width="200"/>
+    <img src="app/src/main/res/drawable/poke_gigaselect.png" alt="Gigadex Select Image" width="200"/>
+</div>
 
 *   Search: When in vertical mode in the binder, you can search for certain Pokemon using the searchbar at the top, which filters which Pokemon are shown.
 <img src="app/src/main/res/drawable/poke_search.png" alt="Search Image" width="200"/>
